@@ -13,7 +13,7 @@ public class Observer2 extends Elections implements Observer{
 		pop = new PopularElection2();
 		
 		observable.addObserver(this);
-		display();
+		
 	}
 	@Override
 	public void update(Observable observable, Object arg) {
